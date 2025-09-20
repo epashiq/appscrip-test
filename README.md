@@ -1,16 +1,17 @@
-# appscrip_test
+# User Directory App
 
-A new Flutter project.
+A beautiful Flutter application that displays users fetched from the JSONPlaceholder API. Built with Provider for state management following MVC architecture principles.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+### Core Features
+- ✅ Fetch and display users from JSONPlaceholder API
+- ✅ Loading indicators during data fetching
+- ✅ Pull-to-refresh functionality
+- ✅ Comprehensive error handling with retry mechanism
+- ✅ Clean and intuitive Material Design UI
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  
+<img width="1440" height="3120" alt="Screenshot_1758375418" src="https://github.com/user-attachments/assets/45928d69-ff61-4055-9474-8d3686e307e8" />
+<img width="1440" height="3120" alt="Screenshot_1758375457" src="https://github.com/user-attachments/assets/ae4a055b-fba2-4f37-8d14-3afc7aa164b4" />
+<img width="1440" height="3120" alt="Screenshot_1758375479" src="https://github.com/user-attachments/assets/a529abd5-5763-4c41-9763-35bdceb8aa01" />
