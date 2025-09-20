@@ -37,7 +37,7 @@ class _UserListScreenState extends State<UserListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'User Directory',
+          'Users',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         backgroundColor: Colors.blueGrey,
@@ -58,7 +58,6 @@ class _UserListScreenState extends State<UserListScreen> {
                     },
                   ),
                 ),
-
               Expanded(
                 child: () {
                   if (controller.isLoading) {

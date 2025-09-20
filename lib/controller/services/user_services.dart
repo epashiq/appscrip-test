@@ -40,35 +40,6 @@ class UserServices {
     }
   }
 
-  //  Future<UserModel> fetchUserById(int id) async {
-  //   try {
-  //     final response = await dio.get('$baseUrl/users/$id',options: Options(headers: 
-  //        {'Content-Type': 'application/json'}
-  //     ));
-
-  //     if (response.statusCode == 200 && response.data != null) {
-  //       return UserModel.fromJson(response.data);
-  //     } else {
-  //       throw DioException(
-  //         requestOptions: response.requestOptions,
-  //         response: response,
-  //         message: 'Failed to load user',
-  //       );
-  //     }
-  //   } on DioException catch (e) {
-  //     if (kDebugMode) {
-  //       print('Dio error fetching user $id: ${e.message}');
-  //     }
-  //     rethrow;
-  //   } catch (e) {
-  //     if (kDebugMode) {
-  //       print('Unexpected error fetching user $id: $e');
-  //     }
-  //     throw DioException(
-  //       requestOptions: RequestOptions(path: '/users/$id'),
-  //       message: 'An unexpected error occurred: $e',
-  //     );
-  //   }
-  // }
+ 
 }
 
